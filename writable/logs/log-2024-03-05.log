@@ -1,0 +1,385 @@
+INFO - 2024-03-05 09:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 09:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 09:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:07:41 --> Undefined variable $jatiasih
+in APPPATH\Views\admin_jatiasih\editData_pelatih.php on line 10.
+ 1 APPPATH\Views\admin_jatiasih\editData_pelatih.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jatiasih', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_jatiasih\\editData_pelatih.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_jatiasih\\editData_pelatih.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_jatiasih/editData_pelatih', [], true)
+ 5 APPPATH\Controllers\Admin_jatiasih.php(342): view('Admin_jatiasih/editData_pelatih', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->editData_pelatih('20')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 10:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:45:08 --> Call to undefined method App\Models\ModelPelatih_jatiasih::ubahData_pelatih
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_jatiasih.php(403): CodeIgniter\Model->__call('ubahData_pelatih', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->ubahData_pelatih('20')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 10:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 11:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 11:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 11:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 11:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:04:46 --> Undefined variable $data
+in APPPATH\Models\ModelPelatih_jatiasih.php on line 44.
+ 1 APPPATH\Models\ModelPelatih_jatiasih.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Models\\ModelPelatih_jatiasih.php', 44)
+ 2 APPPATH\Controllers\Admin_jatiasih.php(423): App\Models\ModelPelatih_jatiasih->deleteData_pelatih('22', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->deleteData_pelatih('22')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:04:59 --> unlink(image/g-7.jpg): No such file or directory
+in APPPATH\Controllers\Admin_jatiasih.php on line 417.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/g-7.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_jatiasih.php', 417)
+ 2 APPPATH\Controllers\Admin_jatiasih.php(417): unlink('image/g-7.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->deleteData_pelatih('22')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:05:28 --> unlink(image/g-7.jpg): No such file or directory
+in APPPATH\Controllers\Admin_jatiasih.php on line 417.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/g-7.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_jatiasih.php', 417)
+ 2 APPPATH\Controllers\Admin_jatiasih.php(417): unlink('image/g-7.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->deleteData_pelatih('22')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:06:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_jatiasih.php on line 417.
+ 1 APPPATH\Controllers\Admin_jatiasih.php(417): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_jatiasih.php', 417)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->deleteData_pelatih('22')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:06:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_jatiasih.php on line 417.
+ 1 APPPATH\Controllers\Admin_jatiasih.php(417): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_jatiasih.php', 417)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->deleteData_pelatih('22')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:06:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_jatiasih.php on line 417.
+ 1 APPPATH\Controllers\Admin_jatiasih.php(417): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_jatiasih.php', 417)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_jatiasih->deleteData_pelatih('22')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_jatiasih))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:12:35 --> Undefined variable $page
+in APPPATH\Views\layout\template.php on line 603.
+ 1 APPPATH\Views\layout\template.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php', 603)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pondokmelati/pembina_pondokmelati', [], true)
+ 6 APPPATH\Controllers\Pondokmelati.php(26): view('pondokmelati/pembina_pondokmelati', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokmelati->pembina_pondokmelati()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokmelati))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:12:46 --> Undefined variable $page
+in APPPATH\Views\layout\template.php on line 603.
+ 1 APPPATH\Views\layout\template.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php', 603)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bantargebang/pembina_bantargebang', [], true)
+ 6 APPPATH\Controllers\Bantargebang.php(28): view('bantargebang/pembina_bantargebang', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bantargebang->pembina_bantargebang()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bantargebang))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 13:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 13:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 13:12:57 --> Undefined variable $page
+in APPPATH\Views\layout\template.php on line 603.
+ 1 APPPATH\Views\layout\template.php(603): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php', 603)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jatisampurna/pembina_jatisampurna', [], true)
+ 6 APPPATH\Controllers\Jatisampurna.php(26): view('jatisampurna/pembina_jatisampurna', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jatisampurna->pembina_jatisampurna()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jatisampurna))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+CRITICAL - 2024-03-05 14:37:33 --> "filteradminpondokmelati" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filteradminpondokmelati')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('jatisampurna/pembina_jatisampurna')
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('Jatisampurna/pembina_jatisampurna', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+CRITICAL - 2024-03-05 14:37:34 --> "filteradminpondokmelati" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('filteradminpondokmelati')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('jatisampurna/pembina_jatisampurna')
+ 4 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\Filters\Filters->run('Jatisampurna/pembina_jatisampurna', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 14:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 14:39:10 --> Undefined variable $page
+in APPPATH\Views\layout\template.php on line 620.
+ 1 APPPATH\Views\layout\template.php(620): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php', 620)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('jatisampurna/pembina_jatisampurna', [], true)
+ 6 APPPATH\Controllers\Jatisampurna.php(26): view('jatisampurna/pembina_jatisampurna', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Jatisampurna->pembina_jatisampurna()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jatisampurna))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 14:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 14:41:25 --> Invalid file: "Admin_pondokmelati/pembina_pondok_melati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin_pondokmelati/pembina_pondok_melati.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_pondokmelati/pembina_pondok_melati', [], true)
+ 3 APPPATH\Controllers\Admin_pondokmelati.php(19): view('Admin_pondokmelati/pembina_pondok_melati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 14:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 14:41:56 --> Invalid file: "Admin_pondokmelati/pembina_pondok_melati.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin_pondokmelati/pembina_pondok_melati.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_pondokmelati/pembina_pondok_melati', [], true)
+ 3 APPPATH\Controllers\Admin_pondokmelati.php(19): view('Admin_pondokmelati/pembina_pondok_melati', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 14:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 14:57:05 --> Undefined variable $pondokmelati
+in APPPATH\Views\admin_pondokmelati\pembina_pondok_melati.php on line 25.
+ 1 APPPATH\Views\admin_pondokmelati\pembina_pondok_melati.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_pondokmelati\\pembina_pondok_melati.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_pondokmelati\\pembina_pondok_melati.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_pondokmelati/pembina_pondok_melati', [], true)
+ 5 APPPATH\Controllers\Admin_pondokmelati.php(19): view('Admin_pondokmelati/pembina_pondok_melati', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:01:20 --> Class "App\Controllers\ModelPelatih_pondokmelati" not found
+in APPPATH\Controllers\Admin_pondokmelati.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\admin_pondokmelati->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:01:22 --> Class "App\Controllers\ModelPelatih_pondokmelati" not found
+in APPPATH\Controllers\Admin_pondokmelati.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\admin_pondokmelati->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:02:42 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:06:04 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:06:05 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:06:06 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:06:07 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:06:08 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:08:26 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:08:27 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:09:27 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 15:09:28 --> Undefined property: App\Controllers\admin_pondokmelati::$ModelPembina_pondokmelati
+in APPPATH\Controllers\Admin_pondokmelati.php on line 26.
+ 1 APPPATH\Controllers\Admin_pondokmelati.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\admin_pondokmelati::$ModelPembina_pondokmelati', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_pondokmelati.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\admin_pondokmelati->pembina_pondok_melati()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin_pondokmelati))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-05 15:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 15:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

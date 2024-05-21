@@ -1,0 +1,629 @@
+INFO - 2024-04-11 11:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 11:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 11:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 11:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 11:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 11:49:35 --> Undefined array key "tingkatan"
+in APPPATH\Views\admin_bekasilatan\pembina_bekasi_selatan.php on line 35.
+ 1 APPPATH\Views\admin_bekasilatan\pembina_bekasi_selatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tingkatan"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pembina_bekasi_selatan.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pembina_bekasi_selatan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekasilatan/pembina_bekasi_selatan', [], true)
+ 5 APPPATH\Controllers\Admin_bekasilatan.php(30): view('Admin_bekasilatan/pembina_bekasi_selatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->pembina_bekasi_selatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 12:12:06 --> Undefined variable $bekatim
+in APPPATH\Views\admin_bekasilatan\pembina_bekasi_selatan.php on line 81.
+ 1 APPPATH\Views\admin_bekasilatan\pembina_bekasi_selatan.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bekatim', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pembina_bekasi_selatan.php', 81)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pembina_bekasi_selatan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekasilatan/pembina_bekasi_selatan', [], true)
+ 5 APPPATH\Controllers\Admin_bekasilatan.php(30): view('Admin_bekasilatan/pembina_bekasi_selatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->pembina_bekasi_selatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 12:20:06 --> Undefined property: App\Controllers\Admin_bekasilatan::$ModelPembina_bekatim
+in APPPATH\Controllers\Admin_bekasilatan.php on line 213.
+ 1 APPPATH\Controllers\Admin_bekasilatan.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_bekasilatan::$ModelPembina_bekatim', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasilatan.php', 213)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->insertData_pembina()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 12:27:22 --> Undefined variable $idpembina_bekasilatan
+in APPPATH\Controllers\Admin_bekasilatan.php on line 347.
+ 1 APPPATH\Controllers\Admin_bekasilatan.php(347): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpembina_bekasilatan', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasilatan.php', 347)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->ubahData_pembina('3')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 12:28:24 --> Invalid file: "/Admin_bekasilatan/detailData_pembina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Admin_bekasilatan/detailData_pembina.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/Admin_bekasilatan/detailData_pembina', [], true)
+ 3 APPPATH\Controllers\Admin_bekasilatan.php(385): view('/Admin_bekasilatan/detailData_pembina', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->detailData_pembina('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 12:36:57 --> Undefined array key "tingkatan"
+in APPPATH\Views\admin_bekasilatan\pelatih_bekasi_selatan.php on line 35.
+ 1 APPPATH\Views\admin_bekasilatan\pelatih_bekasi_selatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tingkatan"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pelatih_bekasi_selatan.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pelatih_bekasi_selatan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekasilatan/pelatih_bekasi_selatan', [], true)
+ 5 APPPATH\Controllers\Admin_bekasilatan.php(433): view('Admin_bekasilatan/pelatih_bekasi_selatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->pelatih_bekasi_selatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 12:36:58 --> Undefined array key "tingkatan"
+in APPPATH\Views\admin_bekasilatan\pelatih_bekasi_selatan.php on line 35.
+ 1 APPPATH\Views\admin_bekasilatan\pelatih_bekasi_selatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tingkatan"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pelatih_bekasi_selatan.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pelatih_bekasi_selatan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekasilatan/pelatih_bekasi_selatan', [], true)
+ 5 APPPATH\Controllers\Admin_bekasilatan.php(433): view('Admin_bekasilatan/pelatih_bekasi_selatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->pelatih_bekasi_selatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 12:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 12:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 13:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 13:03:01 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Admin_bekasut.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Admin_bekasut->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 14:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 14:52:02 --> Undefined variable $bekasilatan
+in APPPATH\Views\admin_bekasut\pembina_bekasi_utara.php on line 41.
+ 1 APPPATH\Views\admin_bekasut\pembina_bekasi_utara.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bekasilatan', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasut\\pembina_bekasi_utara.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasut\\pembina_bekasi_utara.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekasut/pembina_bekasi_utara', [], true)
+ 5 APPPATH\Controllers\Admin_bekasut.php(31): view('Admin_bekasut/pembina_bekasi_utara', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->pembina_bekasi_utara()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 14:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 14:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 14:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 14:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:14:31 --> Call to undefined function App\Controllers\url_nama()
+in APPPATH\Controllers\Admin_bekasut.php on line 193.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->insertData_pembina()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:28:29 --> Call to undefined method App\Models\ModelPembina_bekasut::detailData
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekasut.php(234): CodeIgniter\Model->__call('detailData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->editData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:50:31 --> Undefined variable $slug
+in APPPATH\Controllers\Admin_bekasut.php on line 234.
+ 1 APPPATH\Controllers\Admin_bekasut.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->editData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:52:13 --> Undefined variable $islug
+in APPPATH\Models\ModelPembina_bekasut.php on line 36.
+ 1 APPPATH\Models\ModelPembina_bekasut.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $islug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Models\\ModelPembina_bekasut.php', 36)
+ 2 APPPATH\Controllers\Admin_bekasut.php(364): App\Models\ModelPembina_bekasut->ubahData_pembina('jalaludin-rumi', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->ubahData_pembina('jalaludin-rumi')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:55:30 --> Undefined variable $lug
+in APPPATH\Controllers\Admin_bekasut.php on line 382.
+ 1 APPPATH\Controllers\Admin_bekasut.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 382)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->detailData_pembina('aliyatun-Nafisah')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:56:26 --> Undefined variable $lug
+in APPPATH\Controllers\Admin_bekasut.php on line 382.
+ 1 APPPATH\Controllers\Admin_bekasut.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 382)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->detailData_pembina('aliyatun-Nafisah')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:56:27 --> Undefined variable $lug
+in APPPATH\Controllers\Admin_bekasut.php on line 382.
+ 1 APPPATH\Controllers\Admin_bekasut.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 382)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->detailData_pembina('aliyatun-Nafisah')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:56:28 --> Undefined variable $lug
+in APPPATH\Controllers\Admin_bekasut.php on line 382.
+ 1 APPPATH\Controllers\Admin_bekasut.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 382)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->detailData_pembina('aliyatun-Nafisah')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:56:47 --> Invalid file: "/Admin_bekasut/detailData_pembina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Admin_bekasut/detailData_pembina.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/Admin_bekasut/detailData_pembina', [], true)
+ 3 APPPATH\Controllers\Admin_bekasut.php(385): view('/Admin_bekasut/detailData_pembina', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->detailData_pembina('aliyatun-Nafisah')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:58:29 --> Undefined variable $idpembina_bekasut
+in APPPATH\Models\ModelPembina_bekasut.php on line 43.
+ 1 APPPATH\Models\ModelPembina_bekasut.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpembina_bekasut', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Models\\ModelPembina_bekasut.php', 43)
+ 2 APPPATH\Controllers\Admin_bekasut.php(414): App\Models\ModelPembina_bekasut->deleteData_pembina('aliyatun-Nafisah', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('aliyatun-Nafisah')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:59:14 --> unlink(image/I'm_3.jpg): No such file or directory
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/I\'m_3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 APPPATH\Controllers\Admin_bekasut.php(408): unlink('image/I\'m_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('aliyatun-Nafisah')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:59:17 --> unlink(image/I'm_3.jpg): No such file or directory
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/I\'m_3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 APPPATH\Controllers\Admin_bekasut.php(408): unlink('image/I\'m_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('aliyatun-Nafisah')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 15:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 15:59:31 --> unlink(image/I'm_3.jpg): No such file or directory
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/I\'m_3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 APPPATH\Controllers\Admin_bekasut.php(408): unlink('image/I\'m_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('aliyatun-Nafisah')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 15:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:06:24 --> unlink(image/I'm_3.jpg): No such file or directory
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/I\'m_3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 APPPATH\Controllers\Admin_bekasut.php(408): unlink('image/I\'m_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('jalaludin-rumi')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:06:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 APPPATH\Controllers\Admin_bekasut.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:13:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:14:43 --> Undefined variable $idpembina_bekasut
+in APPPATH\Controllers\Admin_bekasut.php on line 390.
+ 1 APPPATH\Controllers\Admin_bekasut.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpembina_bekasut', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 390)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:16:18 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:17:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:17:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:18:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:18:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:18:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:19:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:19:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:21:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:23:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:23:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:24:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:24:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:25:34 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:25:44 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:26:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:26:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 391.
+ 1 APPPATH\Controllers\Admin_bekasut.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 391)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->downloadData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:27:04 --> Undefined variable $slug
+in APPPATH\Controllers\Admin_bekasut.php on line 406.
+ 1 APPPATH\Controllers\Admin_bekasut.php(406): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 406)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:27:54 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 APPPATH\Controllers\Admin_bekasut.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:27:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 APPPATH\Controllers\Admin_bekasut.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:28:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 APPPATH\Controllers\Admin_bekasut.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('jalaludin-rumi')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:30:22 --> Undefined variable $slug
+in APPPATH\Controllers\Admin_bekasut.php on line 414.
+ 1 APPPATH\Controllers\Admin_bekasut.php(414): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slug', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 414)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('8')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-11 16:31:13 --> unlink(image/I'm_3.jpg): No such file or directory
+in APPPATH\Controllers\Admin_bekasut.php on line 408.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(image/I\'m_3.jpg): No such file or directory', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasut.php', 408)
+ 2 APPPATH\Controllers\Admin_bekasut.php(408): unlink('image/I\'m_3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasut->deleteData_pembina('8')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasut))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-11 16:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-11 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

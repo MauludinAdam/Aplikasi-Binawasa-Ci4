@@ -1,0 +1,287 @@
+INFO - 2024-01-21 11:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 11:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 12:04:57 --> Call to undefined method App\Models\ModelPembina_pondokgede::insertData
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Pondokgede.php(98): CodeIgniter\Model->__call('insertData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-21 12:14:03 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-21 12:14:04 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penggalang\', \'Jl.Jatimakmur\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penggalang\', \'Jl.Jatimakmur\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penggalang\', \'Jl.Jatimakmur\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (:nta:, :nama:, :jenkel:, :golongan:, :tingkatan:, :alamat:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-21 12:29:28 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-21 12:29:28 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penggalang\', \'Jl.Jatimakmur\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penggalang\', \'Jl.Jatimakmur\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penggalang\', \'Jl.Jatimakmur\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (:nta:, :nama:, :jenkel:, :golongan:, :tingkatan:, :alamat:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-21 12:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 12:30:15 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-21 12:30:15 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penegak\', \'Jl.Jatimakmur\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penegak\', \'Jl.Jatimakmur\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1857201070\', \'Sulaiman\', \'Laki-Laki\', \'KML\', \'Penegak\', \'Jl.Jatimakmur\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (:nta:, :nama:, :jenkel:, :golongan:, :tingkatan:, :alamat:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-21 12:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 12:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 12:59:48 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-21 12:59:48 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'Jl.Angsana\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'Jl.Angsana\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'Jl.Angsana\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (:nta:, :nama:, :jenkel:, :golongan:, :tingkatan:, :alamat:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-21 13:01:42 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-21 13:01:42 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'Jl.Angsana\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'Jl.Angsana\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'Jl.Angsana\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (:nta:, :nama:, :jenkel:, :golongan:, :tingkatan:, :alamat:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-21 13:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-21 13:02:35 --> mysqli_sql_exception: Column 'foto' cannot be null in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-21 13:02:35 --> Column 'foto' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'jl.Angsana\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'jl.Angsana\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (\'1855201030\', \'Sri Sumayya\', \'Perempuan\', \'KPD\', \'Siaga\', \'jl.Angsana\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_pondokgede` (`nta`, `nama`, `jenkel`, `golongan`, `tingkatan`, `alamat`, `foto`) VALUES (:nta:, :nama:, :jenkel:, :golongan:, :tingkatan:, :alamat:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_pondokgede.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Pondokgede.php(98): App\Models\ModelPembina_pondokgede->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->insertData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-21 13:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-21 13:52:14 --> Undefined variable $menu
+in APPPATH\Views\layout\template.php on line 407.
+ 1 APPPATH\Views\layout\template.php(407): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php', 407)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('pondokgede/createpembina_pondokgede', [], true)
+ 6 APPPATH\Controllers\Pondokgede.php(92): view('pondokgede/createpembina_pondokgede', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pondokgede->createpembina_pondokgede()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pondokgede))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-21 13:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 13:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 14:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 15:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-21 16:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

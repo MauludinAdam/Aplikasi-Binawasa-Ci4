@@ -1,0 +1,518 @@
+INFO - 2024-01-11 09:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 09:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-11 09:57:14 --> Class "App\Models\ModelPelatih_bekarat" not found
+in APPPATH\Controllers\Bekarat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Bekarat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-11 10:24:06 --> Undefined array key "idpelatih_bakasibarat"
+in APPPATH\Views\bekarat\pelatih_bekarat.php on line 36.
+ 1 APPPATH\Views\bekarat\pelatih_bekarat.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpelatih_bakasibarat"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\bekarat\\pelatih_bekarat.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\bekarat\\pelatih_bekarat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bekarat/pelatih_bekarat', [], true)
+ 5 APPPATH\Controllers\Bekarat.php(53): view('bekarat/pelatih_bekarat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->pelatih_bekarat()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 10:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 10:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-11 15:15:38 --> Undefined variable $data
+in APPPATH\Models\ModelPelatih_bekarat.php on line 17.
+ 1 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Models\\ModelPelatih_bekarat.php', 17)
+ 2 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('2', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('2')
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 15:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-11 15:32:36 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekarat' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(50): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->pelatih_bekarat()
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-01-11 15:32:36 --> Table 'binawasa.pelatih_bekarat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `pelatih_bekarat`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pelatih_bekarat`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pelatih_bekarat`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pelatih_bekarat`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Bekarat.php(50): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->pelatih_bekarat()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+CRITICAL - 2024-01-11 15:33:11 --> Undefined array key "idpelatih_bekasibarat"
+in APPPATH\Views\bekarat\pelatih_bekarat.php on line 36.
+ 1 APPPATH\Views\bekarat\pelatih_bekarat.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpelatih_bekasibarat"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\bekarat\\pelatih_bekarat.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\bekarat\\pelatih_bekarat.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bekarat/pelatih_bekarat', [], true)
+ 5 APPPATH\Controllers\Bekarat.php(53): view('bekarat/pelatih_bekarat', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->pelatih_bekarat()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 15:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-11 15:34:35 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekarat' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:34:35 --> Table 'binawasa.pelatih_bekarat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:35:01 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekarat' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:35:01 --> Table 'binawasa.pelatih_bekarat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:35:02 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekarat' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:35:02 --> Table 'binawasa.pelatih_bekarat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:35:04 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekarat' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:35:04 --> Table 'binawasa.pelatih_bekarat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 15:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-01-11 15:35:12 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekarat' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:35:12 --> Table 'binawasa.pelatih_bekarat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:35:54 --> mysqli_sql_exception: Unknown column 'idpelatih_bekasibarat' in 'where clause' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:35:54 --> Unknown column 'idpelatih_bekasibarat' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:35:56 --> mysqli_sql_exception: Unknown column 'idpelatih_bekasibarat' in 'where clause' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:35:56 --> Unknown column 'idpelatih_bekasibarat' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekasibarat` = :idpelatih_bekasibarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat.1:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:36:35 --> mysqli_sql_exception: Unknown column 'idpelatih_bekasibarat' in 'where clause' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:36:35 --> Unknown column 'idpelatih_bekasibarat' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = :idpelatih_bekarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+ERROR - 2024-01-11 15:36:37 --> mysqli_sql_exception: Unknown column 'idpelatih_bekasibarat' in 'where clause' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-01-11 15:36:37 --> Unknown column 'idpelatih_bekasibarat' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = \'1\'
+AND `idpelatih_bekasibarat` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pelatih_bekasibarat`
+WHERE `idpelatih_bekarat` = :idpelatih_bekarat:
+AND `idpelatih_bekasibarat` = :idpelatih_bekasibarat:', [...], false)
+ 5 APPPATH\Models\ModelPelatih_bekarat.php(17): CodeIgniter\Database\BaseBuilder->delete([...])
+ 6 APPPATH\Controllers\Bekarat.php(62): App\Models\ModelPelatih_bekarat->deletePelatih('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+CRITICAL - 2024-01-11 15:37:29 --> Undefined variable $idpelatih_bekarat
+in APPPATH\Controllers\Bekarat.php on line 59.
+ 1 APPPATH\Controllers\Bekarat.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idpelatih_bekarat', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Bekarat.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekarat->deletePelatih('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekarat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 15:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-11 15:48:41 --> Undefined property: App\Controllers\Bekasut::$ModelPembina_bekasut
+in APPPATH\Controllers\Bekasut.php on line 16.
+ 1 APPPATH\Controllers\Bekasut.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Bekasut::$ModelPembina_bekasut', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Bekasut.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekasut->pembina_bekasut()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 15:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 15:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-11 15:58:37 --> Undefined property: App\Controllers\Bekasut::$ModelPembina_bekasut
+in APPPATH\Controllers\Bekasut.php on line 16.
+ 1 APPPATH\Controllers\Bekasut.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Bekasut::$ModelPembina_bekasut', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Bekasut.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekasut->pembina_bekasut()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 15:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-11 15:58:38 --> Undefined property: App\Controllers\Bekasut::$ModelPembina_bekasut
+in APPPATH\Controllers\Bekasut.php on line 16.
+ 1 APPPATH\Controllers\Bekasut.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Bekasut::$ModelPembina_bekasut', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Bekasut.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekasut->pembina_bekasut()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+CRITICAL - 2024-01-11 15:59:57 --> Undefined property: App\Controllers\Bekasut::$ModelPembina_bekasut
+in APPPATH\Controllers\Bekasut.php on line 16.
+ 1 APPPATH\Controllers\Bekasut.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Bekasut::$ModelPembina_bekasut', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Bekasut.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekasut->pembina_bekasut()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekasut))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+CRITICAL - 2024-01-11 16:00:19 --> Undefined variable $subtitle
+in APPPATH\Views\bekasut\pembina_bekasut.php on line 6.
+ 1 APPPATH\Views\bekasut\pembina_bekasut.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subtitle', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\bekasut\\pembina_bekasut.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\bekasut\\pembina_bekasut.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('bekasut/pembina_bekasut', [], true)
+ 5 APPPATH\Controllers\Bekasut.php(19): view('bekasut/pembina_bekasut', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bekasut->pembina_bekasut()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bekasut))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-01-11 16:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-11 16:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

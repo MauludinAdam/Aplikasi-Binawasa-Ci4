@@ -1,0 +1,644 @@
+INFO - 2024-04-10 11:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 11:46:17 --> Undefined array key "tingkatan"
+in APPPATH\Views\admin_bekarat\editData_pelatih.php on line 76.
+ 1 APPPATH\Views\admin_bekarat\editData_pelatih.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tingkatan"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekarat\\editData_pelatih.php', 76)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekarat\\editData_pelatih.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/Admin_bekarat/editData_pelatih', [], true)
+ 5 APPPATH\Controllers\Admin_bekarat.php(634): view('/Admin_bekarat/editData_pelatih', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekarat->editData_pelatih('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekarat))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 11:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 11:53:56 --> Call to undefined method App\Models\ModelPelatih_bekarat::detailData_pelatih
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekarat.php(778): CodeIgniter\Model->__call('detailData_pelatih', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekarat->detailData_pelatih('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekarat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 11:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 11:55:07 --> Call to undefined method App\Models\ModelPelatih_bekarat::detailData_pelatih
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekarat.php(778): CodeIgniter\Model->__call('detailData_pelatih', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekarat->detailData_pelatih('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekarat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 11:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 11:55:08 --> Call to undefined method App\Models\ModelPelatih_bekarat::detailData_pelatih
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekarat.php(778): CodeIgniter\Model->__call('detailData_pelatih', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekarat->detailData_pelatih('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekarat))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 11:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 11:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:23:04 --> Undefined variable $bekarat
+in APPPATH\Views\admin_bekatim\pembina_bekasi_timur.php on line 81.
+ 1 APPPATH\Views\admin_bekatim\pembina_bekasi_timur.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bekarat', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\pembina_bekasi_timur.php', 81)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\pembina_bekasi_timur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/pembina_bekasi_timur', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(29): view('Admin_bekatim/pembina_bekasi_timur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->pembina_bekasi_timur()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:45:47 --> Call to undefined method App\Models\ModelPembina_bekatim::insertData_pembina
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekatim.php(211): CodeIgniter\Model->__call('insertData_pembina', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pembina()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:49:49 --> Invalid file: "Adminbekasitimur/editData_pembina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminbekasitimur/editData_pembina.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Adminbekasitimur/editData_pembina', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(234): view('Adminbekasitimur/editData_pembina', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pembina('5')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:50:32 --> Invalid file: "Adminbekasitimur/editData_pembina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminbekasitimur/editData_pembina.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Adminbekasitimur/editData_pembina', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(234): view('Adminbekasitimur/editData_pembina', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pembina('5')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:51:27 --> Call to undefined method App\Models\ModelPembina_bekatim::detailData_pembina
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekatim.php(231): CodeIgniter\Model->__call('detailData_pembina', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pembina('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:51:29 --> Call to undefined method App\Models\ModelPembina_bekatim::detailData_pembina
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekatim.php(231): CodeIgniter\Model->__call('detailData_pembina', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pembina('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:56:07 --> Call to undefined method App\Models\ModelPembina_bekatim::ubahData_pembina
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekatim.php(360): CodeIgniter\Model->__call('ubahData_pembina', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->ubahData_pembina('5')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 12:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 12:57:55 --> Undefined variable $bekatim
+in APPPATH\Views\admin_bekatim\detailData_pembina.php on line 15.
+ 1 APPPATH\Views\admin_bekatim\detailData_pembina.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bekatim', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\detailData_pembina.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\detailData_pembina.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/Admin_bekatim/detailData_pembina', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(381): view('/Admin_bekatim/detailData_pembina', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->detailData_pembina('5')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 12:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 13:02:41 --> Invalid file: "Admin_bekatim/excelData_pembina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin_bekatim/excelData_pembina.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/excelData_pembina', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(397): view('Admin_bekatim/excelData_pembina', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->excelData_pembina()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 13:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 13:04:56 --> Invalid file: "Adminbekasitimur/pelatih_bekasi_timur.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminbekasitimur/pelatih_bekasi_timur.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Adminbekasitimur/pelatih_bekasi_timur', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(432): view('Adminbekasitimur/pelatih_bekasi_timur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->pelatih_bekasi_timur()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 13:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 13:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 13:56:56 --> Invalid file: "Adminbekasitimur/pelatih_bekasi_timur.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminbekasitimur/pelatih_bekasi_timur.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Adminbekasitimur/pelatih_bekasi_timur', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(432): view('Adminbekasitimur/pelatih_bekasi_timur', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->pelatih_bekasi_timur()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:01:00 --> Undefined array key "no_gudep"
+in APPPATH\Views\admin_bekatim\pelatih_bekasi_timur.php on line 45.
+ 1 APPPATH\Views\admin_bekatim\pelatih_bekasi_timur.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_gudep"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\pelatih_bekasi_timur.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\pelatih_bekasi_timur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/pelatih_bekasi_timur', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(432): view('Admin_bekatim/pelatih_bekasi_timur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->pelatih_bekasi_timur()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:05:51 --> Undefined array key "idpembina_bekatim"
+in APPPATH\Views\admin_bekatim\pelatih_bekasi_timur.php on line 82.
+ 1 APPPATH\Views\admin_bekatim\pelatih_bekasi_timur.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpembina_bekatim"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\pelatih_bekasi_timur.php', 82)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\pelatih_bekasi_timur.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/pelatih_bekasi_timur', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(432): view('Admin_bekatim/pelatih_bekasi_timur', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->pelatih_bekasi_timur()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:11:59 --> Invalid file: "Adminbekasitimur/tambahData_pelatih.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminbekasitimur/tambahData_pelatih.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Adminbekasitimur/tambahData_pelatih', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(445): view('Adminbekasitimur/tambahData_pelatih', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->tambahData_pelatih()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-10 14:19:24 --> mysqli_sql_exception: Table 'binawasa.pelatih_bekatim' doesn't exist in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('1857201015', 'nta', Array, NULL, 'nta')
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nta', 'Nta', '1857201015', Array, Array)
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_bekatim.php(452): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+#11 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-04-10 14:19:24 --> Table 'binawasa.pelatih_bekatim' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `pelatih_bekatim`
+WHERE `nta` = \'1857201015\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `pelatih_bekatim`
+WHERE `nta` = \'1857201015\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `pelatih_bekatim`
+WHERE `nta` = \'1857201015\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `pelatih_bekatim`
+WHERE `nta` = :nta:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(278): CodeIgniter\Validation\StrictRules\Rules->is_unique('1857201015', 'nta', [...], null, 'nta')
+ 7 SYSTEMPATH\Validation\Validation.php(182): CodeIgniter\Validation\Validation->processRules('nta', 'Nta', '1857201015', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Admin_bekatim.php(452): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-10 14:20:57 --> mysqli_sql_exception: Unknown column 'thn_lulus_kpd' in 'field list' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-04-10 14:20:57 --> Unknown column 'thn_lulus_kpd' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg.jpg\', \'pic2_4.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg.jpg\', \'pic2_4.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg.jpg\', \'pic2_4.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (:nta:, :no_gudep:, :nama:, :jenkel:, :tempat_lhr:, :tgl_lhr:, :email:, :no_telp:, :pangkalan:, :kualifikasi:, :golongan:, :thn_lulus_kpd:, :thn_lulus_kpl:, :alamat:, :ijazah:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-10 14:22:57 --> mysqli_sql_exception: Unknown column 'thn_lulus_kpd' in 'field list' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-04-10 14:22:57 --> Unknown column 'thn_lulus_kpd' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_1.jpg\', \'pic2_5.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_1.jpg\', \'pic2_5.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_1.jpg\', \'pic2_5.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (:nta:, :no_gudep:, :nama:, :jenkel:, :tempat_lhr:, :tgl_lhr:, :email:, :no_telp:, :pangkalan:, :kualifikasi:, :golongan:, :thn_lulus_kpd:, :thn_lulus_kpl:, :alamat:, :ijazah:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-10 14:23:27 --> mysqli_sql_exception: Unknown column 'thn_lulus_kpd' in 'field list' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-04-10 14:23:27 --> Unknown column 'thn_lulus_kpd' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_2.jpg\', \'pic2_6.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_2.jpg\', \'pic2_6.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_2.jpg\', \'pic2_6.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (:nta:, :no_gudep:, :nama:, :jenkel:, :tempat_lhr:, :tgl_lhr:, :email:, :no_telp:, :pangkalan:, :kualifikasi:, :golongan:, :thn_lulus_kpd:, :thn_lulus_kpl:, :alamat:, :ijazah:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-10 14:27:03 --> mysqli_sql_exception: Unknown column 'thn_lulus_kpd' in 'field list' in C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina(Array)
+#6 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+#7 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+#8 C:\xampp\htdocs\CodeIgniter\Binawasa\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\Binawasa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter\Binawasa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-04-10 14:27:03 --> Unknown column 'thn_lulus_kpd' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_3.jpg\', \'pic2_7.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_3.jpg\', \'pic2_7.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (\'1857201015\', \'001\', \'Ibnu Sina\', \'Laki-Laki\', \'Jatiasih, Kota Bekasi\', \'2024-04-01\', \'ibnu@gmail.com\', \'081234345657\', \'Bekasi Timur\', \'KPD\', \'Penegak\', \'2024-04-03\', \'2024-04-05\', \'Jl. Kh. Noer Ali, Kota Bekasi\', \'popular-bg_3.jpg\', \'pic2_7.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pembina_bekasitimur` (`nta`, `no_gudep`, `nama`, `jenkel`, `tempat_lhr`, `tgl_lhr`, `email`, `no_telp`, `pangkalan`, `kualifikasi`, `golongan`, `thn_lulus_kpd`, `thn_lulus_kpl`, `alamat`, `ijazah`, `foto`) VALUES (:nta:, :no_gudep:, :nama:, :jenkel:, :tempat_lhr:, :tgl_lhr:, :email:, :no_telp:, :pangkalan:, :kualifikasi:, :golongan:, :thn_lulus_kpd:, :thn_lulus_kpl:, :alamat:, :ijazah:, :foto:)', [...], false)
+ 5 APPPATH\Models\ModelPembina_bekatim.php(23): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Admin_bekatim.php(613): App\Models\ModelPembina_bekatim->insertData_pembina([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:37:03 --> Undefined property: App\Controllers\Admin_bekatim::$ModelPelatih_jatiasih
+in APPPATH\Controllers\Admin_bekatim.php on line 613.
+ 1 APPPATH\Controllers\Admin_bekatim.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_bekatim::$ModelPelatih_jatiasih', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekatim.php', 613)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->insertData_pelatih()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:41:11 --> Call to undefined method App\Models\ModelPelatih_bekatim::detailData
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekatim.php(635): CodeIgniter\Model->__call('detailData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editdata_pelatih('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:46:28 --> Undefined array key "idpembina_bekatim"
+in APPPATH\Views\admin_bekatim\editData_pelatih.php on line 9.
+ 1 APPPATH\Views\admin_bekatim\editData_pelatih.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpembina_bekatim"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\editData_pelatih.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\editData_pelatih.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/editData_pelatih', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(638): view('Admin_bekatim/editData_pelatih', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pelatih('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:46:30 --> Undefined array key "idpembina_bekatim"
+in APPPATH\Views\admin_bekatim\editData_pelatih.php on line 9.
+ 1 APPPATH\Views\admin_bekatim\editData_pelatih.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpembina_bekatim"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\editData_pelatih.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\editData_pelatih.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/editData_pelatih', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(638): view('Admin_bekatim/editData_pelatih', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pelatih('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:46:31 --> Undefined array key "idpembina_bekatim"
+in APPPATH\Views\admin_bekatim\editData_pelatih.php on line 9.
+ 1 APPPATH\Views\admin_bekatim\editData_pelatih.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idpembina_bekatim"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\editData_pelatih.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\editData_pelatih.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekatim/editData_pelatih', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(638): view('Admin_bekatim/editData_pelatih', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->editData_pelatih('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:49:10 --> Call to undefined method App\Models\ModelPelatih_bekatim::ubahData_pelatih
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Admin_bekatim.php(764): CodeIgniter\Model->__call('ubahData_pelatih', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->ubahData_pelatih('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:50:21 --> Invalid file: "/Admin_bekatim/detailData_pelatih.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Admin_bekatim/detailData_pelatih.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/Admin_bekatim/detailData_pelatih', [], true)
+ 3 APPPATH\Controllers\Admin_bekatim.php(785): view('/Admin_bekatim/detailData_pelatih', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->detailData_pelatih('4')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 14:51:31 --> Undefined array key "thn_lulus_kPl"
+in APPPATH\Views\admin_bekatim\detailData_pelatih.php on line 95.
+ 1 APPPATH\Views\admin_bekatim\detailData_pelatih.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "thn_lulus_kPl"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\detailData_pelatih.php', 95)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekatim\\detailData_pelatih.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/Admin_bekatim/detailData_pelatih', [], true)
+ 5 APPPATH\Controllers\Admin_bekatim.php(785): view('/Admin_bekatim/detailData_pelatih', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekatim->detailData_pelatih('4')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekatim))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 14:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 14:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 15:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 15:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 15:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 15:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 15:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-10 15:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 15:06:53 --> Undefined property: App\Controllers\Admin_bekasilatan::$UserModel
+in APPPATH\Controllers\Admin_bekasilatan.php on line 25.
+ 1 APPPATH\Controllers\Admin_bekasilatan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_bekasilatan::$UserModel', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Controllers\\Admin_bekasilatan.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->pembina_bekasi_selatan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-04-10 15:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-10 15:08:02 --> Undefined array key "tingkatan"
+in APPPATH\Views\admin_bekasilatan\pembina_bekasi_selatan.php on line 35.
+ 1 APPPATH\Views\admin_bekasilatan\pembina_bekasi_selatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tingkatan"', 'C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pembina_bekasi_selatan.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\app\\Views\\admin_bekasilatan\\pembina_bekasi_selatan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Admin_bekasilatan/pembina_bekasi_selatan', [], true)
+ 5 APPPATH\Controllers\Admin_bekasilatan.php(30): view('Admin_bekasilatan/pembina_bekasi_selatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_bekasilatan->pembina_bekasi_selatan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_bekasilatan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')

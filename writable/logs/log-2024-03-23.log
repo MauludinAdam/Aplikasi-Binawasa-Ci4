@@ -1,0 +1,25 @@
+INFO - 2024-03-23 13:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 13:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 13:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 13:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 13:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 13:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 13:07:03 --> CodeIgniter\HTTP\Response::download(): Argument #3 ($setMime) must be of type bool, null given, called in C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_pondokgede.php on line 421
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 788.
+ 1 APPPATH\Controllers\Admin_pondokgede.php(421): CodeIgniter\HTTP\Response->download('download_ijazah/', [...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_pondokgede->download('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_pondokgede))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-23 13:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 13:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-23 13:15:28 --> CodeIgniter\HTTP\Response::download(): Argument #3 ($setMime) must be of type bool, null given, called in C:\xampp\htdocs\CodeIgniter\Binawasa\app\Controllers\Admin_pondokgede.php on line 421
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 788.
+ 1 APPPATH\Controllers\Admin_pondokgede.php(421): CodeIgniter\HTTP\Response->download('download_ijazah/', [...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin_pondokgede->download('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_pondokgede))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CodeIgniter\\Binawasa\\public\\index.php')
+INFO - 2024-03-23 13:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
